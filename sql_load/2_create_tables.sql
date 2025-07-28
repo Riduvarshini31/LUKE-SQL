@@ -7,6 +7,10 @@ CREATE TABLE public.company_dim
     link_google TEXT,
     thumbnail TEXT
 );
+SELECT*
+FROM job_postings_fact
+LIMIT 5;
+
 
 -- Create skills_dim table with primary key
 CREATE TABLE public.skills_dim
